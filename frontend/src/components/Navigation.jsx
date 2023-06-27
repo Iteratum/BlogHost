@@ -14,7 +14,7 @@ export const Navigation = () => {
           </nav>
           <nav>
             <NavLink className='px-6 py-2 duration-700 hover:text-emerald-300' to="Login">Login</NavLink>
-            <NavLink className='px-6 py-2 duration-700 hover:text-emerald-300 bg-sky-900 text-white rounded-2xl' to="Signup">Sign Up</NavLink>
+            <NavLink className='px-6 py-2 duration-700 hover:text-emerald-300 bg-sky-900 text-white rounded-2xl' to="SignUp">Sign Up</NavLink>
           </nav>
         </header>
         <main>
