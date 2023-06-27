@@ -17,7 +17,7 @@ class Blog(models.Model):
     title = models.CharField(max_length=200)
     category = models.ForeignKey(PostCategory, null=True, on_delete=models.CASCADE, related_name="type")
     body = models.TextField(max_length=5000)
-    image = models.ImageField(null=True, blank=True, upload_to="backend/media/")
+    image = models.ImageField(null=True, blank=True, upload_to="backend/static/media/")
     
     def __str__(self):
         return self.title
